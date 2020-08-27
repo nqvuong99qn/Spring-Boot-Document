@@ -1,5 +1,6 @@
 ## Tight Coupling là gì, loosely coupled là gì?
 
+
 `Tight coupling ` ám chỉ việc thể hiện sự ràng buộc quá chặt chẽ giữa cách class.
 
 `Loosely coupled` là một hướng tiếp cận làm sao cho sự ràng buộc quá chặt chẽ ở trên được dãn nở ra nhất có thể. 
@@ -8,7 +9,7 @@ Một số ví dụ bên dưới có thể giúp ta sẽ hiểu rõ hơn về b�
 
 
 `Normal approach`
-```
+``` java
 // This class using for quicksort
 class Quicksort{
     public void sort(int[] array){
@@ -27,7 +28,7 @@ class ComposeClass{
 ```
 
 `Better approach`
-```
+```java
 public interface sort(){
     public void sort(int[] array){}
 }
@@ -51,7 +52,7 @@ class ComposeClass{
 ```
 
 `Popular approach`
-```
+```java
 public interface sort{
     public void sort(int[] array){}
 }
