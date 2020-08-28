@@ -6,7 +6,7 @@
 - Eliminated the boilerplate configurations for set up new application
 - Check and externalized configurations
 - **What is the  `autoConfiguration`?**
-  - Find in denpendency and find `@annotation` for configuration
+  - Find in dependency and autofind `@annotation` for configuration
 
 ## What is the `Spring Data JPA`?
 
@@ -16,9 +16,9 @@
 
 ## What is the `Hibernate`?
 
-- Implementation of `JPA`. It's JPA provider. JPA
+- Implementation of `JPA`. It's JPA provider.
 - `ORM` framework
-- Mapping record, table, relation in database to object, entity, class.
+- Mapping `record`,`table`, `relation` in database to`object`, `entity`, `class`
 
 ## What is the `DTO`, `DAO`?
 
@@ -39,5 +39,8 @@
 ## What is the `Bean`?
 - Core of `Spring`
 - when application running, `Bean` will iniatial set up and loaded in context
+- They will be injected when need to using
+
+
 
 
