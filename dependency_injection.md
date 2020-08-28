@@ -1,6 +1,6 @@
 `Description`
 Một cô gái đi chơi biển và hiển `bikini` là trang phục rất chủ đạo ki đi dạo biển. Bên cạnh đấy, cô ấy còn chuẩn bị thêm một số bộ `outfit` khác. 
- ## Hãy dùng class để biểu diễn minh hoạt cho ví dụ trên `!!!`
+## Hãy dùng class để biểu diễn minh hoạt cho ví dụ trên `!!!`
 
 ```java
 class Girl{
