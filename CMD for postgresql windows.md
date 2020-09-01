@@ -3,7 +3,7 @@ Một tình huống đặt ra thế này!
 
 Khi chúng ta làm việc ở công ty, việc cài đặt một phần mềm hay chương trình nào đó không còn là tự do nhưng máy tính cá nhân nữa. Điều này cũng dễ hiểu vì lý do bảo mật cũng như rất nhiều vấn đề gì gì đấy. Đại loại là khi muốn cài một phần mềm nào đấy, thuộc loại phần mềm cần biến môi trường, phần lớn cần phải thông qua bộ phận IT để mở quyền cài đặt phần mềm. 
 
-Chính vì sự bất tiện này, việc sử dụng `Command Line (CMD)` là một kỹ năng cần có. Và `postgresql` là một trường hợp như vậy. 
+Chính vì sự bất tiện này, việc sử dụng `Command Line (CMD)` là một kỹ năng cần có. Và việc cấu hình server `postgresql` là một trường hợp như vậy. 
 
 Dưới đây là phần cấu hình server `postgresql` và sử dụng `DBeaver` (GUI) để view dữ liệu ở góc nhìn giao diện.
 
@@ -14,8 +14,8 @@ Dưới đây là phần cấu hình server `postgresql` và sử dụng `DBeave
 
 >3. Mở CMD trên windows rồi tiến hành tạo user, database nè!
 
-### Trước tiên, ta tạo một thư mục có tên là `data` ở thư mục chính của postgres, rồi lấy đường dẫn rồi `save in cache (path_in_cache)` nhé!
-- DO FOLLOWING THE INSTRUCTION BELOW!
+### Trước tiên, ta tạo một thư mục có tên là `data` ở thư mục chính của postgres, rồi copy đường dẫn, `save in cache (path_in_cache)` nhé và mở `cmd` của windows ra nè!
+- DO FOLLOWING THE INSTRUCTIONS BELOW!
 
     - `create databast server`
         ```
